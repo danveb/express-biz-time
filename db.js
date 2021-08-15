@@ -1,7 +1,6 @@
 /** Database setup for BizTime. */
 
 // require('pg') and we're going to use Client 
-// const pg = require('pg') -> and use Client
 const { Client } = require("pg"); // easiest
 
 let DB_URI;
